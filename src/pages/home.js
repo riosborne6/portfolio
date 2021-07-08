@@ -67,9 +67,6 @@ function Home(props) {
         </div>
     </section>
     <h4>Made with ❤️️ by Ian Osborne</h4>
-    <p>
-        &copy; 2021 Ian Osborne Production Co
-    </p>
     </div>
     </div>
   );
