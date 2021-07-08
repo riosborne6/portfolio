@@ -38,3 +38,10 @@
     transform: rotate(360deg);
   }
 }
+
+footer {
+  position: bottom;
+  bottom: 0;
+  width: 100%;
+  background-color: pink;
+}
