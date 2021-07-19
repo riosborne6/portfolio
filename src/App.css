@@ -39,9 +39,26 @@
   }
 }
 
-footer {
+.footer {
   position: bottom;
   bottom: 0;
   width: 100%;
-  background-color: pink;
+  background-color: rgb(232, 232, 238);
+}
+
+.header {
+  position: top;
+  color: azure;
+  top: 0;
+  width: 100%;
+  background-color: black;
+}
+
+.title {
+  background-color: rgb(44, 44, 78);
+  color: white;
+}
+
+.mywork {
+  background-color: beige;
 }

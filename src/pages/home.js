@@ -4,58 +4,46 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Icons from '../components/icons';
 import Footer from '../components/Footer';
 
+
 function Home(props) {
   return (
     <div>
     <div className="App">
-    <header>
-        <h1>Ian Osborne - Master Coder</h1>
-        <div>
-            <ul>
-                <li>
-                    <a href="#About-Me">About Me</a>
-                </li>
-                <li>
-                    <a href="#My-Work">My Work</a>
-                </li>
-                <li>
-                    <a href="#Contact">Contact</a>
-                </li>
-            </ul>
-        </div>
+    <header className="title">
+        <h1 >Ian Osborne's Portfolio</h1>
     </header>
-    <div className="hero">
-        <img src="./Images/Dude-Coding.jpg" alt="Ian-Coding"/>
-    </div>
-    <section className="content">
+    <section className="inner-content-style">
         <div id="About-Me" className="inner-content-style">
-            <img src="./Images/My-Photo.jpg" className="float-left" alt="office supplies"/>
+            <img src="./Images/My-Photo.jpg" className="float-left" alt=""  width="130" height="130"/>
             <h2>About Me</h2>
             <p>
-                Hello, my name is Ian Osborne and I am a new coder. I spent the last 8 years of my life as a Commercial
+                Hello, my name is Ian Osborne and I am learning to code. I spent the last 8 years of my life as a Commercial
                 Real Estate professional working with tech companies to help them find office space. I wanted to know
                 what exactly they were doing so I took a className to find out, and now here I am!
             </p>
         </div>
         <div id="My-Work" className="inner-content-style">
-            <h2>My Work</h2>
+            <h2 className="mywork">My Work</h2>
             <div className="image-container">
                 <div className="portfolio-images">
                     <h3>First Application - Run Buddy</h3>
                     <a href="https://riosborne6.github.io/run-buddy">
-                        <img className="portfolio-images" src="./Images/mens-running-shoes-2x1-lowres4658.jpg" alt=""/>
+                        <img className="portfolio-images" src="./Images/mens-running-shoes-2x1-lowres4658.jpg" alt="" width="200" height="200"/>
                     </a>               
                     </div>
                 <div className=" portfolio-images">
-                        <h3>Most Recent App - Budget Tracker</h3>
-                        <a href="https://riosborne6.github.io/budget_tracker/">
-                            <img className="portfolio-images" src="./Images/Kid-With-Gun.jpg" alt="" />
+                        <h3>Group Project - BrewMaps</h3>
+                        <a href="https://brewmap3.herokuapp.com/">
+                            <img className="portfolio-images" src="./Images/brewmap-home.png" alt="" width="200" height="200" />
                         </a>
                 </div>
             </div>
+            <p>
+                My Languages
+            <Icons></Icons>
+            </p>
         </div>
         <div id="Contact" className="inner-content-style">
-            <img src="./Images/Contact.png" className="float-left" alt="group of people" />
             <h2>Contact</h2>
             <p>
                 <li>(415) 710-0549 </li>
